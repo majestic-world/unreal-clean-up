@@ -1,6 +1,7 @@
 {
   "name": "unreal-code-cleanup",
   "displayName": "unreal code cleanup",
+  "publisher": "majestic",
   "description": "",
   "version": "0.0.1",
   "engines": {
