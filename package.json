@@ -8,6 +8,7 @@
   },
   "description": "",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.104.0"
   },
@@ -50,7 +51,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "package": "npx vsce package --no-dependencies"
   },
   "devDependencies": {
     "@types/vscode": "^1.104.0",
